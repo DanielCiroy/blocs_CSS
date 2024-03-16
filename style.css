@@ -9,5 +9,27 @@
     flex-direction: column;
     width: 400px;
     border: 1px solid black;
+    border-radius: 10px;
 
+}
+
+.disci {
+    text-align: start;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.disci h3 {
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+.disci h3 span {
+    text-transform: lowercase;
+    font-size: 12px;
+    font-weight: 200;
+    color: grey;
 }
