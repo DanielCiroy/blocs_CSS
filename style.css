@@ -1,35 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,900;1,700;1,900&display=swap');
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
 }
 
-.semestre1 {
+.container {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.semestre1,
+.semestre2 {
     display: flex;
     flex-direction: column;
     width: 400px;
-    border: 1px solid black;
-    border-radius: 10px;
+    height: auto;
+    border-radius: 20px;
+    background-color: rgb(235, 235, 235);
+
+
+}
+
+.semestre1 h2,
+.semestre2 h2 {
+    text-align: center;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #5fcf80;
+    margin-top: 10px;
 
 }
 
 .disci {
     text-align: start;
-    border: 1px solid black;
-    margin: 20px;
+    margin: 10px;
+    padding: 10px;
     border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    background-color: #5fcf80;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    line-height: 10px;
+
+
+}
+
+.disci p {
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: rgb(87, 77, 77);
 }
 
 .disci h3 {
-    font-size: 20px;
+    font-size: 19px;
     font-weight: bold;
     text-transform: uppercase;
-
+    color: #fff;
 }
 
 .disci h3 span {
     text-transform: lowercase;
     font-size: 12px;
     font-weight: 200;
-    color: grey;
+    color: rgb(116, 97, 97);
+
+}
+
+.disci i {
+    position: relative;
+    left: 320px;
+    bottom: 20px;
+    border-radius: 50%;
+    background-color: #ffff;
+    padding: 8px;
+    color: #5fcf80;
 }
